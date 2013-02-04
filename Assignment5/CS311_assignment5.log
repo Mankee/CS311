@@ -1,0 +1,167 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.2.23)  26 NOV 2012 21:34
+entering extended mode
+ %&-line parsing enabled.
+**CS311_assignment5.tex
+(./CS311_assignment5.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/anysize/anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen103
+\@Rightmargin=\dimen104
+\@Topmargin=\dimen105
+\@Bottommargin=\dimen106
+) (./CS311_assignment5.aux)
+\openout1 = `CS311_assignment5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--40
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--95
+
+ []
+
+[2] [3] [4] (./CS311_assignment5.aux) ) 
+Here is how much of TeX's memory you used:
+ 225 strings out of 256217
+ 2563 string characters out of 1917095
+ 57804 words of memory out of 1500000
+ 3589 multiletter control sequences out of 10000+200000
+ 5141 words of font info for 19 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 22i,4n,19p,1045b,182s stack positions out of 5000i,500n,6000p,200000b,15000s
+
+Output written on CS311_assignment5.dvi (5 pages, 14848 bytes).

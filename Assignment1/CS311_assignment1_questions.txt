@@ -1,0 +1,23 @@
+Austin Dubina
+CS 311 - Assignment 1 Questions
+9/28/2012
+
+1.	Describe at least 2 ways of transferring files from a remote server to a local machine.
+One method of transferring a file to and from a remote server to a local machine would be to use a secure copy application (SCP). These programs typically will utilize a Secure Shell (SSH) for data transfer. Another method for transferring files from a remote server to a local machine would be to utilize and file transfer protocol (FTP). I would recommend SCP for its security and ability to execute advanced commands over SSH.
+
+2.	What are revision control systems? Why are they useful?
+According to Wiki (http://en.wikipedia.org/wiki/Revision_control) revision control is the management of changes to documents, computer programs, large web sites, and other collections of information. Changes or revisions are usually denoted with a number or letter code to track changes over a period of time. In software engineering revision control is useful because it helps software developers and users manage and keep track of changes to source code, documentation and configuration files. Depending on what revision control system you use, the numbering and rules for revision control / implementation may be different but the fundamental idea behind it is not.
+
+3.	What is the difference between redirecting and piping? Describe each.
+Basically piping is used in Linux / Unix to pass an output to another program or utility to be used as an input. Redirecting is used to pass some output to a file or from a file as input.
+
+4.	What is make, and how is it useful?
+Make is a utility program that helps create and maintain programs. Make is useful because it helps automate the building process of a program by keeping track of what portions of a program has been changed and compiling only those changed parts. Make is also useful because it helps automate the need to type long strings of code necessary to compile and link large programs.
+
+5.	Describe, in detail, the syntax of a make file.
+A makefile will typically take on a series of targets, dependencies and various scripts. When a target is called its dependencies are then check; dependencies may be a file or another target. Once a target and its dependencies have been specified, the makefile will then execute specified scripts. Specifically speaking, a POSIX based system follows a special recipe for compiling an object file from C. for example the $(CC) variable represents the type of compiler to be used, the $(CFLAG) variable is used to specify various compiler options, and LDFLAGS are used to link specific library directories.
+
+6.	Give a find command that will run the file command on every regular file (not directories!) within the current filesystem subtree.
+
+find . -type f -exec file '{}' \;
+

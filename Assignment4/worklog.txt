@@ -1,0 +1,125 @@
+commit 5def863d3889af845ce411fdf5d9f84acf211ff7
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Wed Nov 7 09:56:50 2012 -0800
+
+    program now parses, sorts, and merges newline delimited text. still need to add logic that will compare strings and remove repeat words.
+
+commit adbb5416228f7c6de8defef8b0c0d358eea693b9
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Mon Nov 5 14:45:14 2012 -0800
+
+    program now sucessfully parses in text file and sends strings to multiple pipes in a round robin fashion. now I need to start working on sort function within the children.
+
+commit 167f3b4c41edf85ffac847cf6f8336836247c902
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Sat Nov 3 14:29:45 2012 -0700
+
+    program is hanging after printing the the last child.I suspect the children are not execting the while loop sucessfully becuase I am not closing the pipes properly or in the right order. more investigation is required. scanf is still not implemented nor is the merger.
+
+commit d2000799f48051305d55b29b30208ec2b16f673c
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Nov 2 13:35:17 2012 -0700
+
+    got the round robin working on my pipes. now I need to add scanf and sort functions.
+
+commit 2f3edb4b933af37bc6b2daddd9ebdd25c70c8ecc
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Thu Nov 1 15:44:17 2012 -0700
+
+    Started project, after about 9 hours, I now have my pipes set up and the parent is sucessfully writing children in a round robin fashion. now I need to implement scanf and sort mechcanics.
+
+commit 3b035b7fa68142a519add8603ddcca23a1341915
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Mon Oct 29 12:19:00 2012 -0700
+
+    Everything except Append ALL is done. fix all bugs I could find. Program only works with even ending bytes on files.
+
+commit c5dde7e5caca47ca4e1c62d16bb9cb4573037501
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Sun Oct 28 17:44:32 2012 -0700
+
+    delete function is working however it deletes multiples of the same file name. Need to add linking and unlinking features to delete function. Need to Write Append function.
+
+commit 63915e2669612d23a9f26657bfa13b52cd887550
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Sat Oct 27 12:42:00 2012 -0700
+
+    extract function now works, however I need to modify file creation date to current date and not the archive date
+
+commit 75b4ff0e6ad01a6f2c02112c0e9475b56bdd765f
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Thu Oct 25 14:56:37 2012 -0700
+
+    Started extraction function, currently the function sucessfully locates and compares the argument filename string to the header filename string. Next I need to create a function that create a new file and write its contents.
+
+commit 9886c247778c88138403f025a1ec355af82b9d45
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Wed Oct 24 22:32:52 2012 -0700
+
+    append functions done! moving on to extraction
+
+commit ed5dfcddb44f424df313333d625aed6b1584903c
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Tue Oct 23 19:37:57 2012 -0700
+
+    finished normal and verbose print out of archive, and and started append function. currently the function converts values from stat function to a string buffer. Now I need to start writting this header along with the file contents to an actual achive file sucessfully. the true test will be if I can write and archive and sucessfully extract it using ar.
+
+commit 21e06128ee3145039a8ed36607bb05e9956a087c
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Sat Oct 20 12:23:48 2012 -0700
+
+    time is now properly displayed using the time tm struct and the strftime function. Permissions are still messed up on the archived files however. I still think my flags are incorrect. On another note, I finally got the while loop to work inside open_file function, I am now checking for a return of 0 on read() to see if I have reached the end of file
+
+commit 6d2a90d295fbdad728f7aae38d98b4e3d9afa802
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 19 16:34:44 2012 -0700
+
+    fixed verbose printing formatting. now includes time created. however file name still randomly prints on a new line.
+
+commit 7ec9b9d54e8e147d1838684b925e74c780d93135
+Author: Austin Dubina <weila@flip3.engr.oregonstate.edu>
+Date:   Fri Oct 19 11:19:28 2012 -0700
+
+    implemented string permissions function handed out in class, however I dont belive i have th flags properly set up. Also Lseeking though the file is somewhat working. However the printout is messy.
+
+commit 2e4eb8cd660eadecc37dbd733172f9625361a65b
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Thu Oct 18 16:20:46 2012 -0700
+
+     got read and snprintf functions working properly. Also I have sucessfully converted the file size string at the end of the header to an integer which will be used as an offset to loop through all the difrrent headers and required by the assignment
+
+commit 9accecee6e309c6a749704875f436deaa9d8c2ef
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 14:17:22 2012 -0700
+
+    started writing simple read file function with errno if function returns -1
+
+commit 17c62c6c46196a28c6c9687ea63017b4e92fb173
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 12:56:00 2012 -0700
+
+    started to write getopt function to command line arguments
+
+commit 7750584a953e1faa57ff4f3db665ff64c07a989d
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 10:24:46 2012 -0700
+
+    created header file for file_stat.c and added to makefile
+
+commit f556391f8f337d9f3de16d7b6bc37cc2d628f8ff
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 09:55:52 2012 -0700
+
+    added example makefile from class to project 3 repository
+
+commit c678d92b60e8b830a88705716e896b11975b6a75
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 09:41:53 2012 -0700
+
+    added file_state.c example from class to project 3
+
+commit 28bae0625b5ad30e7a3459bb8e5fa0632b323256
+Author: Austin Dubina <weila@os-class.engr.oregonstate.edu>
+Date:   Fri Oct 12 09:16:28 2012 -0700
+
+    created myar.c and added to git repository
